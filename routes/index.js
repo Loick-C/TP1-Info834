@@ -10,4 +10,9 @@ router.post('/addUser',(req,res)=>{
     controller.addUser(req,res);
 })
 
+router.post('/login',(req,res)=>{
+    controller.login(req,res);
+})
+
+
 module.exports=router;
